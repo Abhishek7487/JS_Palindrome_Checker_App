@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0b1121, #142c48);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.container .palHeading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #e2a6ff;
+  font-family: "Graduate", sans-serif;
+  margin-bottom: 5rem;
+}
+
+.container .palInput {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  width: 45%;
+  margin-bottom: 5rem;
+}
+
+.container .palInput .inputText {
+  width: 100%;
+  background-color: #1e293b;
+  color: #fff;
+  font-size: 1.4rem;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 6.2rem;
+}
+
+.container .palInput .inputText:focus {
+  outline: none;
+}
+
+.container .palInput .checkBtn {
+  align-self: center;
+  font-size: 1.2rem;
+  background-color: #0ea5e9;
+  color: #fff;
+  padding: 0.8rem 2.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.container .palInput .checkBtn:hover {
+  background-color: #0ea4e9da;
+}
+
+.container .messageDiv {
+  padding: 2.4rem 0;
+}
+
+.container .messageDiv .message {
+  font-size: 2.4rem;
+  font-family: "Graduate", sans-serif;
+  color: #e4e7e4;
+}
