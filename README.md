@@ -12,7 +12,7 @@
 [![AGPL License](https://img.shields.io/badge/FSJS-Ineuron-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 
-## 🔗 Live Link - [Typing Cloner](https://fsjs-palindrome-checker.netlify.app/)
+## 🔗 Live Link - [Palindrome Checker](https://fsjs-palindrome-checker.netlify.app/)
 
 
 ## 🪧 Demo
